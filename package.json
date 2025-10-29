@@ -1,0 +1,23 @@
+{
+  "name": "tiny-package-manager",
+  "version": "1.0.0",
+  "description": "A tiny package manager",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "find-up": "^8.0.0",
+    "fs-extra": "^11.3.2",
+    "js-yaml": "^4.1.0",
+    "log-update": "^7.0.1",
+    "progress": "^2.0.3",
+    "semver": "^7.7.3",
+    "tar": "^7.5.1",
+    "undici": "^7.16.0",
+    "yargs": "^18.0.0"
+  }
+}
